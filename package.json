@@ -6,10 +6,9 @@
   "scripts": {
     "build": "vite build",
     "preview": "vite preview",
-    "build": "vite build",
+    "start" : "serve -s build",
     "dev": "vite",
-    "lint": "eslint .",
-    "start": "run preview"
+    "lint": "eslint ."
   },
   "dependencies": {
     "react": "^18.3.1",
